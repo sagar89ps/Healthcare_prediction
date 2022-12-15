@@ -1,0 +1,4 @@
+import pickle
+
+with open("RF_CLF.pkl","wb") as f:
+    pickle.dump(rf_clf1,f)
